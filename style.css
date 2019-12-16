@@ -1,0 +1,56 @@
+.floor {
+    display: flex;
+    width: 400px;
+    border: 1px solid oldlace;
+    position: relative;
+    flex-direction: column;
+}
+
+.wall {
+    background: slategrey;
+    padding: 10px;;
+}
+.elevator-system> .elevator-container {
+    flex-direction: column;
+}
+.indicator-panel {
+    
+    text-align: center
+}
+.elevator {
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    background: #dfdfdf;
+}
+.elevator-container {
+    display: inline-flex;
+    align-items: center;
+}
+.elevator-system {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.elevator-container {
+    margin: 10px;
+}
+.active{
+    background: #c3f584;
+}
+.floor.active-floor .wall.left-panel.active>div {
+    visibility: visible;
+}
+.wall.left-panel>div {
+    visibility: hidden;
+}
+
+
+.elevator-title {
+    text-align: center;
+}
+
+.fa-orange {
+    color: #ff971d;
+}
