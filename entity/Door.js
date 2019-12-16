@@ -20,6 +20,7 @@ export default class Door {
         this.state = Door.STATE.OPENING;
         setTimeout(() => {
             this.state = Door.STATE.OPENED;
+            this._eventSignal.trigger('DOOR-OPENED', this._elevator); //send the signal
             this._elevator.state = this._elevator.constructor.STATE.IDLE;
         }, 500); // 
     }
