@@ -42,3 +42,7 @@
 
 ## How To Run the Application
 * run index.html in any server environment
+
+## How to Use the Application
+* After running the application select the floor number (e.g. "3") in any elevator (e.g. Elevator-1) and click on the "Close" button in the same elevator. It will move the elevator to the select floor and change the state of the elevator to IDLE. 
+* Now, if you want to move the same elevator to any other floor then first set the direction of the elevator by clicking on the (UP or Down Arrow Button) this is required as the elevator is in IDLE state. Now click on the floor number and then close button, it will move to elevator to the selected floor in the desired direction.
